@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824038210418",
+    "firebase_url": "https://sym-scooter.firebaseio.com",
+    "project_id": "sym-scooter",
+    "storage_bucket": "sym-scooter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824038210418:android:1e38f5cc3d18f54183fbeb",
+        "android_client_info": {
+          "package_name": "com.example.builder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824038210418-5vg4ske1ao7fun94fklr9j61ubd4oe03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.builder",
+            "certificate_hash": "839d174cef46e34cd6a9206a3a45b08d6672967a"
+          }
+        },
+        {
+          "client_id": "824038210418-2egle0038ktelul8v7chjqrf0gnccb3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVwVMSjsZAZ10ZM5rJrQ-4a52qH4KdMOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824038210418-2egle0038ktelul8v7chjqrf0gnccb3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

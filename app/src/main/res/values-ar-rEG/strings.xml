@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SSE</string>
+    <string name="welcome">مرحبا</string>
+    <string name="model">نوع الاسكوتر</string>
+    <string name="year">سنة الصنع</string>
+    <string name="search">بحـــث</string>
+    <string name="support">الدعم</string>
+    <string name="stores_services">المراكز و الخدمات</string>
+    <string name="comparison">مقارنة</string>
+    <string name="area">المنطقة</string>
+    <string name="dimensions">الابعاد</string>
+    <string name="power_system">نظام الطاقة</string>
+    <string name="engine_type">نوع الماتور</string>
+    <string name="displacement">سعة الموتور</string>
+    <string name="cooling_system">نظام التبريد</string>
+    <string name="air">هواء</string>
+    <string name="fuel_system">نظام البنزين</string>
+    <string name="front_break">الفرامل الأمامية</string>
+    <string name="fuel_capacity">سعة تانك البنزين</string>
+    <string name="dry_weight_kg">"الوزن "</string>
+    <string name="_1870_x_695_x_1150">1870 x 695 x 1150</string>
+    <string name="_1320">1320</string>
+    <string name="Transmission">Transmission</string>
+    <string name="front_suspension">Front Suspension</string>
+    <string name="rear_suspension">Rear Suspension</string>
+    <string name="l_w_h_mm">الطول xالعرضxالارتفاع</string>
+    <string name="_120_70_12">120 / 70-12</string>
+    <string name="rear_tier">الإطارات الخلفية</string>
+    <string name="_110_70_12">110 / 70-12</string>
+    <string name="rear_break">فرامل خلفي</string>
+    <string name="telescopic_fork">Telescopic Fork</string>
+    <string name="drum_130mm">فرامل سلك</string>
+    <string name="wheelbase_mm">Wheelbase (mm)</string>
+    <string name="le_21_430">"21,430 LE "</string>
+    <string name="_4_stroke_forced_air_cooled">4-stroke,forced air cooled</string>
+    <string name="unit_swing">Unit Swing</string>
+    <string name="scooters">الاسكوترات</string>
+    <string name="disk_190mm">فرامل باكم</string>
+    <string name="disk_226_mm">فرامل باكم</string>
+    <string name="single_cylinder">واحد سلندر</string>
+    <string name="top_speed_km_hr">اقصي سرعة (كم\\الساعه)</string>
+    <string name="disk_260_mm">فرامل باكم</string>
+    <string name="disk_240_mm">فرامل باكم</string>
+    <string name="disc_226_mm">فرامل باكم</string>
+    <string name="drum_130_mm">فرامل سلك</string>
+</resources>

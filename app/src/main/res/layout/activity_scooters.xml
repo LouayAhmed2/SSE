@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".Scooters">
+
+    <ImageView
+        android:id="@+id/scooter_image"
+        android:layout_width="419dp"
+        android:layout_height="149dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/scooterlogo"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/Spinner_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_spinner"
+        android:entries="@array/Spinner_Area"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Brand_Text"
+        app:layout_constraintTop_toBottomOf="@id/Brand_Text" />
+
+    <TextView
+        android:id="@+id/Brand_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/model"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scooter_image" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:background="@drawable/background_btn"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Spinner_model"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

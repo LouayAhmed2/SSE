@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.builder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Scooters" />
+        <activity android:name=".StoresActivity" />
+        <activity android:name=".Symphonyst" />
+        <activity android:name=".Symphonys" />
+        <activity android:name=".Symphonysr" />
+        <activity android:name=".Orbit" />
+        <activity android:name=".Jet14" />
+        <activity android:name=".FiddleThree" />
+        <activity android:name=".FiddleTwo" />
+        <activity android:name=".Jet4" />
+        <activity android:name=".Eltawkel" />
+        <activity android:name=".SelfMaintenance" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

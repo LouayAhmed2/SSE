@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:padding="10dp"
+    tools:context=".Eltawkel">
+
+
+    <ImageButton
+        android:id="@+id/web_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/web"
+        android:onClick="Web"
+        app:layout_constraintBottom_toBottomOf="@id/viewtwo"
+        app:layout_constraintStart_toEndOf="@id/Addressdicription"
+        app:layout_constraintTop_toBottomOf="@id/viewone" />
+
+    <ImageButton
+        android:id="@+id/Whatsapp_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/whatsapp"
+        android:onClick="whatsapp"
+        app:layout_constraintBottom_toBottomOf="@id/viewthree"
+        app:layout_constraintStart_toEndOf="@id/Addressdicription"
+        app:layout_constraintTop_toBottomOf="@id/viewtwo" />
+
+    <ImageButton
+        android:id="@+id/call_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/call"
+        android:onClick="Call"
+        app:layout_constraintBottom_toBottomOf="@id/viewfour"
+        app:layout_constraintStart_toEndOf="@id/Addressdicription"
+        app:layout_constraintTop_toBottomOf="@id/viewthree" />
+
+    <ImageButton
+        android:id="@+id/Direction_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/direction"
+        android:onClick="GetDirection"
+        app:layout_constraintStart_toEndOf="@id/Addressdicription"
+        app:layout_constraintTop_toBottomOf="@id/viewfive" />
+
+    <ImageView
+        android:id="@+id/Hummers_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/hammersmoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/Whatsapp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Hummers_logo" />
+
+    <TextView
+        android:id="@+id/Namedicription"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text="HAMMERS MOTORCYCLE"
+
+        android:textColor="@color/White"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/viewone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Hummers_logo" />
+
+    <TextView
+        android:id="@+id/Web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewone" />
+
+    <TextView
+        android:id="@+id/Webdicription"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text="www.symegypt.com"
+        android:textColor="@color/White"
+        android:textSize="11sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@id/viewtwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewone" />
+
+    <TextView
+        android:id="@+id/Whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whatsapp"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewtwo" />
+
+    <TextView
+        android:id="@+id/Whatsappdicription"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text="01204477098"
+        android:textColor="@color/White"
+        android:textSize="11sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@id/viewthree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewtwo" />
+
+    <TextView
+        android:id="@+id/Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewthree" />
+
+    <TextView
+        android:id="@+id/Calldicription"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text="0226985678"
+        android:textColor="@color/White"
+        android:textSize="11sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@id/viewfour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewthree" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewfour" />
+
+    <TextView
+        android:id="@+id/Addressdicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_196_gisr_elsuez_st_lamar_tower_nine_front_of_el_farokia_towers_cairo_egypt"
+        android:textColor="@color/White"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Whatsapp"
+        app:layout_constraintTop_toBottomOf="@id/viewfour" />
+
+    <View
+        android:id="@+id/viewone"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Namedicription" />
+
+    <View
+        android:id="@+id/viewtwo"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Webdicription" />
+
+    <View
+        android:id="@+id/viewthree"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Whatsappdicription" />
+
+    <View
+        android:id="@+id/viewfour"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Calldicription" />
+
+    <View
+        android:id="@+id/viewfive"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Calldicription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

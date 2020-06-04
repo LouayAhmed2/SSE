@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:padding="8dp"
+    android:stretchColumns="1"
+    tools:context=".Symphonyst">
+
+    <TextView
+        android:id="@+id/engineType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/engine_type"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endineTypedicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="4-stroke"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewone"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/endineTypedicription" />
+
+    <TextView
+        android:id="@+id/Displacement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/displacement"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewone" />
+
+    <TextView
+        android:id="@+id/Displacementdicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200cc"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewone" />
+
+    <View
+        android:id="@+id/viewtwo"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Displacementdicription" />
+
+    <TextView
+        android:id="@+id/Cooling_System"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cooling_system"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewtwo" />
+
+    <TextView
+        android:id="@+id/CoolingSystemDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/air"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewtwo" />
+
+    <View
+        android:id="@+id/viewthree"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/CoolingSystemDicription" />
+
+    <TextView
+        android:id="@+id/Fuel_System"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fuel_system"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewthree" />
+
+    <TextView
+        android:id="@+id/Fuel_SystemDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carburetor"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewthree" />
+
+    <View
+        android:id="@+id/viewfour"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Fuel_SystemDicription" />
+
+    <TextView
+        android:id="@+id/Transmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Transmission"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewfour" />
+
+    <TextView
+        android:id="@+id/TransmissionDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C.V.T."
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewfour" />
+
+    <View
+        android:id="@+id/viewfive"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TransmissionDicription" />
+
+    <TextView
+        android:id="@+id/FrontSuspension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/front_suspension"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewfive" />
+
+    <TextView
+        android:id="@+id/FrontSuspensionDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telescopic_fork"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewfive" />
+
+    <View
+        android:id="@+id/viewsix"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FrontSuspensionDicription" />
+
+    <TextView
+        android:id="@+id/Rear_Suspension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rear_suspension"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewsix" />
+
+    <TextView
+        android:id="@+id/RearSuspensionDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_swing"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewsix" />
+
+    <View
+        android:id="@+id/viewseven"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RearSuspensionDicription" />
+
+    <TextView
+        android:id="@+id/Front_Break"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/front_break"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewseven" />
+
+    <TextView
+        android:id="@+id/FrontBreakDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disk_260_mm"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewseven" />
+
+    <View
+        android:id="@+id/vieweight"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FrontBreakDicription" />
+
+    <TextView
+        android:id="@+id/RearBreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rear_break"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vieweight" />
+
+    <TextView
+        android:id="@+id/RearBreakDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disk_240_mm"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/vieweight" />
+
+    <View
+        android:id="@+id/viewnine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RearBreakDicription" />
+
+    <TextView
+        android:id="@+id/FrontTier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Front Tier"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewnine" />
+
+    <TextView
+        android:id="@+id/FrontTierDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="110 / 70-16"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewnine" />
+
+    <View
+        android:id="@+id/viewten"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FrontTierDicription" />
+
+    <TextView
+        android:id="@+id/RearTier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rear_tier"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewten" />
+
+    <TextView
+        android:id="@+id/RearTierDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="110 / 70-16"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewten" />
+
+    <View
+        android:id="@+id/vieweleven"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RearTierDicription" />
+
+    <TextView
+        android:id="@+id/L_w_H"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/l_w_h_mm"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vieweleven" />
+
+    <TextView
+        android:id="@+id/L_w_HDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1995 x 725 x 1195"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/vieweleven" />
+
+    <View
+        android:id="@+id/viewtwelve"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/L_w_HDicription" />
+
+    <TextView
+        android:id="@+id/Wheelbase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wheelbase_mm"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewtwelve" />
+
+    <TextView
+        android:id="@+id/WheelbaseDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1335"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewtwelve" />
+
+    <View
+        android:id="@+id/viewthirtenn"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/WheelbaseDicription" />
+
+    <TextView
+        android:id="@+id/DryWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dry_weight_kg"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewthirtenn" />
+
+    <TextView
+        android:id="@+id/DryWeightDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="127"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewthirtenn" />
+
+    <View
+        android:id="@+id/viewfourtin"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/DryWeightDicription" />
+
+    <TextView
+        android:id="@+id/FuelCapacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fuel_capacity"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewfourtin" />
+
+    <TextView
+        android:id="@+id/Fuel_CapacityDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.5L"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewfourtin" />
+
+    <View
+        android:id="@+id/viewfiveteen"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FuelCapacity" />
+
+    <TextView
+        android:id="@+id/TopSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_speed_km_hr"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewfiveteen" />
+
+    <TextView
+        android:id="@+id/TopSpeedeDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 110"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewfiveteen" />
+
+    <View
+        android:id="@+id/viewsixteen"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TopSpeed" />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewsixteen" />
+
+    <TextView
+        android:id="@+id/PriceDicription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 29,980 LE"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TopSpeed"
+        app:layout_constraintTop_toBottomOf="@id/viewsixteen" />
+
+    <ImageButton
+        android:id="@+id/Displayst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:onClick="open"
+        android:scaleType="centerCrop"
+        android:src="@drawable/st"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PriceDicription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
